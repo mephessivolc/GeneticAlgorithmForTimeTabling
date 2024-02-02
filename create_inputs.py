@@ -9,7 +9,7 @@ def random_word_generate():
     return random_word
 
 teacher_lines = []
-for i in range(5):
+for i in range(10):
     tmp = []
 
     tmp.append(f"{i}_{random_word_generate()}")
@@ -18,9 +18,9 @@ for i in range(5):
     
     teacher_lines.append(tmp)
 
-print("Arquivos criados")
-
-with open('Inputs/timetabling.csv', 'w', newline='') as csvfile:
+with open('timetabling.csv', 'w', newline='') as csvfile:
     csvwriter = csv.writer(csvfile, delimiter=" ", quotechar=',', quoting=csv.QUOTE_MINIMAL)
     for i in teacher_lines:
         csvwriter.writerow(i)
+
+print("Arquivos criados")
