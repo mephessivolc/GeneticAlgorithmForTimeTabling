@@ -35,4 +35,4 @@ Abra o arquivo main.py no Jupyter Notebook e execute as células. Isso gerará u
 # Observações
 Este código é fornecido como exemplo educacional e pode ser adaptado para diferentes problemas de otimização. Certifique-se de ajustar os parâmetros do algoritmo genético de acordo com a natureza específica do problema que você está resolvendo.
 
-Lembre-se de ajustar o arquivo `requirements.txt` conforme necessário e considerar as configurações específicas do ambiente em que o código será executado.
+Lembre-se de ajustar o arquivo `requirements.txt` conforme necessário e considerar as configurações específicas do ambiente em que o código será executado. 
